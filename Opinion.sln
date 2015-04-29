@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opinion.Infrastructure.CQRS", "Infrastructure\Opinion.Infrastructure.CQRS\Opinion.Infrastructure.CQRS.csproj", "{89974172-9318-4EB5-8E84-260A377A1444}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{CC942E5F-9E53-4F1D-ADCD-25EAA3178429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opinion.Infrastructure.Sql", "Infrastructure\Opinion.Infrastructure.Sql\Opinion.Infrastructure.Sql.csproj", "{27A8D360-494A-4753-AF08-1365736EC0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opinion.Infrastructure.Sql.IntegrationTests", "Infrastructure\Opinion.Infrastructure.Sql.IntegrationTests\Opinion.Infrastructure.Sql.IntegrationTests.csproj", "{90F1F8E2-1C90-4CE8-8EF4-6EC26A41B8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRoleCommandProcessor", "Infrastructure\Opinion.WorkerRoleCommandProcessor\WorkerRoleCommandProcessor.csproj", "{2B40DE3F-2E77-4C7C-BC07-C3F8E087FD5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EBE26481-4484-4495-8E85-349220C7DDF6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opinion.Infrastructure.Common", "Infrastructure\Opinion.Infrastructure.Common\Opinion.Infrastructure.Common.csproj", "{5F0C8B41-56E4-4733-8F17-DCF48A8C3B11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89974172-9318-4EB5-8E84-260A377A1444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89974172-9318-4EB5-8E84-260A377A1444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89974172-9318-4EB5-8E84-260A377A1444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89974172-9318-4EB5-8E84-260A377A1444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A8D360-494A-4753-AF08-1365736EC0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A8D360-494A-4753-AF08-1365736EC0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A8D360-494A-4753-AF08-1365736EC0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A8D360-494A-4753-AF08-1365736EC0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F1F8E2-1C90-4CE8-8EF4-6EC26A41B8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F1F8E2-1C90-4CE8-8EF4-6EC26A41B8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F1F8E2-1C90-4CE8-8EF4-6EC26A41B8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F1F8E2-1C90-4CE8-8EF4-6EC26A41B8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B40DE3F-2E77-4C7C-BC07-C3F8E087FD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B40DE3F-2E77-4C7C-BC07-C3F8E087FD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B40DE3F-2E77-4C7C-BC07-C3F8E087FD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B40DE3F-2E77-4C7C-BC07-C3F8E087FD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0C8B41-56E4-4733-8F17-DCF48A8C3B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0C8B41-56E4-4733-8F17-DCF48A8C3B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0C8B41-56E4-4733-8F17-DCF48A8C3B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0C8B41-56E4-4733-8F17-DCF48A8C3B11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89974172-9318-4EB5-8E84-260A377A1444} = {CC942E5F-9E53-4F1D-ADCD-25EAA3178429}
+		{27A8D360-494A-4753-AF08-1365736EC0DC} = {CC942E5F-9E53-4F1D-ADCD-25EAA3178429}
+		{90F1F8E2-1C90-4CE8-8EF4-6EC26A41B8FD} = {CC942E5F-9E53-4F1D-ADCD-25EAA3178429}
+		{2B40DE3F-2E77-4C7C-BC07-C3F8E087FD5A} = {CC942E5F-9E53-4F1D-ADCD-25EAA3178429}
+		{5F0C8B41-56E4-4733-8F17-DCF48A8C3B11} = {CC942E5F-9E53-4F1D-ADCD-25EAA3178429}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal
